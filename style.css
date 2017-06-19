@@ -1,0 +1,144 @@
+*{ 
+    margin: 0;
+    padding: 0;}
+
+#header{
+    width: 100%;
+    height: 65px;
+    background: #333333;
+}
+.logo{
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 20px;
+    float: left;
+}
+.signin{
+    width: 60%;
+    float: right;
+   margin-top: -40px;
+    margin-left: 20px;
+}
+.signin input{
+    margin-left: 5px;
+    height: 13px;
+    vertical-align: middle;
+    padding: 5px 6px 4px;
+    border:1px solid #c1c1c1;
+    font-size: 13px;
+    border-radius: 2px;
+    width: 200px;   
+}
+.signin input[type="submit"]{
+    text-align: center;
+    font-weight: bold;
+    width: 60px;
+    height: 24px;
+    background-color: #e8e8e8;
+}
+.signin input[type="submit"]:hover{
+    color:#AFAFAF;
+    cursor: pointer;
+}
+.signin a{
+    color: #ccc;
+    line-height: 14px;
+    font-size: 13px;
+    margin-left:229px;
+    text-decoration: none;
+}
+.signin a:hover{
+    text-decoration: underline;
+}
+
+#banner{
+    width: 100%;
+    height: 450px;
+    background: url(bg.jpg);
+    position: relative;
+}
+
+.joinnow{
+    height: 380px;
+    width: 300px;
+    background-color: #EEEEEE;
+    position: absolute;
+    padding: 15px 30px;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    color: #333333;
+
+    
+}
+.joinnow h2{
+    text-align: center;
+    text-decoration-color: #333333;
+    margin-bottom: 4px;
+}
+.joinnow h3{
+    text-align: center;
+    text-decoration-color: #333333;
+    margin-bottom: 4px;
+}
+.joinnow input{
+    background-color: #FDFDFD;
+    width: 100%;
+    height: 26px;
+    border-radius: 2px;
+    border: 0.5px solid ash;
+    font-size: 12px;
+    padding: 0 0 0 6px;
+    margin-bottom: 13px;
+}
+.joinnow p{
+    text-align: center;
+    font-size: 12px;
+}
+.joinnow p span{
+    font-weight: bold;
+}
+.joinnow input[type="submit"]{
+    margin-top: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: #F4CD2F;
+}
+.joinnow input[type="submit"]:hover{
+     background-color: #F1C317;
+         cursor: pointer;
+}
+.footer{
+    text-align: center;
+   background-color:#333333;
+    color: #ccc;
+    padding-top: 20px;
+    height: 70px;
+}
+.footer input{
+ background-color: #FDFDFD;
+    height: 21px;
+    border-radius: 2px;
+    border: none;
+    font-size: 12px;
+    padding: 0 0 0 6px;
+    margin-bottom: 15px; 
+}
+.footer input[type=submit]{
+     text-align: center;
+    font-weight: bold;
+    width: 60px;
+    height: 22px;
+    background-color: #e8e8e8;
+}
+.footer input[type="submit"]:hover{
+    color:#AFAFAF;
+    cursor: pointer;
+}
+.footer a{
+    text-decoration: none;
+    color: #e8e8e8;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
